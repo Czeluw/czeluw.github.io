@@ -1,11 +1,13 @@
 header{
     background-color: #011a27;
-    color:#e6df44;
+    color: #f0810f;;
     text-align: center;
     border-radius: 15px;
     /*border radius curves the corners*/
     padding: 50px;
-    /*padding creates space around content*/    
+    /*padding creates space around content*/
+    font-family: 'Press Start 2P', cursive;
+    /*use the google font*/    
 }
 
 img{
@@ -29,7 +31,7 @@ a:visited{
 
 footer{
     background-color:#011a27;
-    color:#e6df44;
+    color: #f0810f;
     text-align: center;
     border-radius: 15px;
     padding: 15px;
@@ -38,4 +40,16 @@ footer{
     left:0px;
     right: 0px;
     bottom: 0px;
+}
+
+#upDate{
+    color:#e6df44
+}
+
+h2{
+    font-family: 'Concert One', cursive;
+}
+
+#assLink{
+    font-family: 'Work Sans', sans-serif;
 }
