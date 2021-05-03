@@ -1,8 +1,82 @@
+header{
+    background-color: #011a27;
+    color: #f0810f;;
+    text-align: center;
+    border-radius: 5px;
+    /*border radius curves the corners*/
+    padding: 10px;
+    /*padding creates space around content*/
+    font-family: 'Press Start 2P', cursive;
+    /*use the google font*/    
+}
+
 body{
-    background-color: yellow;
+    background-color: #063852;
+    color: #f0810f;
 }
 
 main{
     display:grid;
     grid-template-columns: 1fr;
+}
+
+section{
+    margin:50px;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: #337396;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 500px;
+    overflow:hidden;
+}
+
+img{
+    max-width: 300px;
+    min-width: 80%;
+}
+a:link{
+    color: #e6df44
+}
+
+a:visited{
+    color:#e6df44;
+}
+
+/*just trying to get fancy with my nav bar*/
+.navbar{
+    overflow: hidden;
+    background-color:#063852;
+    border: black;
+}
+
+.navbar a{
+    float:left;
+    text-align:center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+footer{
+    background-color:#011a27;
+    color: #f0810f;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    /*fixed vs absolute position: relative to browser vs relative to first position ancestor*/
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#upDate{
+    color:#e6df44
+}
+
+h2{
+    font-family: 'Concert One', cursive;
+}
+
+#assLink{
+    font-family: 'Work Sans', sans-serif;
 }
